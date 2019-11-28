@@ -1,6 +1,6 @@
 import React from 'react'
 import { ApolloProvider } from "react-apollo";
-import App, { AppProps, AppInitialProps, AppContext} from 'next/app';
+import App, { AppProps, AppInitialProps } from 'next/app';
 import { withApolloClient } from '../apollo/withApolloClient';
 import { ApolloClient, NormalizedCacheObject } from 'apollo-boost';
 
