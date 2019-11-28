@@ -1,0 +1,14 @@
+{
+  "verbose": true,
+  "ignore": ["node_modules", ".next"],
+  "exec": "ts-node --project tsconfig.server.json index.ts",
+  "watch": [
+    "config",
+    "dbmodels",
+    "dboperations",
+    "graphql/resolvers",
+    "graphql/types",
+    "server"
+  ],
+  "ext": "js ts"
+}
