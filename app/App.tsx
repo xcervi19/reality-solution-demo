@@ -10,27 +10,6 @@ interface IApolloProps {
 }
 
 class BaseApp extends App<AppInitialProps & AppProps & IApolloProps >  {
-  static async getInitialProps(context: AppContext) {
-    //
-    // Use getInitialProps as a step in the lifecycle when
-    // we can initialize our store
-
-    const isServer = typeof window === 'undefined'
-    // const store = initializeStore(isServer)
-    //
-    // Check whether the page being rendered by the App has a
-    // static getInitialProps method and if so call it
-    //
-    let pageProps = {}
-    if (App.getInitialProps) {
-      pageProps = await App.getInitialProps(context)
-    }
-    return {
-      initialState: {},
-      isServer,
-      pageProps,
-    }
-  }
 
   constructor(props: AppInitialProps & AppProps & IApolloProps) {
     super(props)
