@@ -61,7 +61,7 @@
     "jsonwebtoken": "^8.5.1",
     "lodash": "^4.17.15",
     "log4js": "^4.4.0",
-    "nanoid": "^2.0.3",
+    "nanoid": "^3.1.31",
     "next": "^9.0.3",
     "next-i18next": "1.1.0",
     "next-plugin-custom-babel-config": "^1.0.2",
