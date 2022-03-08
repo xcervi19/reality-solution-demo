@@ -79,6 +79,6 @@
     "styled-system": "^5.0.18",
     "ts-node": "^8.4.1",
     "type-graphql": "^0.17.5",
-    "urijs": "^1.19.1"
+    "urijs": "^1.19.10"
   }
 }
